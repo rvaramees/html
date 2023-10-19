@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body bgcolor="cyan">  
+ <center>
+ <h1><font color="red">WELCOME TO THE FRESHERS WORLD!!!</font>
+</h1>
+    <form action="" method="post" id="f1">
+        <br>
+        <table id="tb" border="2">
+        <tr>
+        <td colspan="3">
+         <h2>
+         <center>
+        Registration Form
+    </center></h2>
+        </td>
+        </tr>
+            <tr>
+                <td>
+                    Name:
+                </td>
+                <td colspan="2"> 
+                    <input type="text" name="name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Age:
+                </td>
+                <td colspan="2">
+                    <input type="number" name="age" id="age">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Password:
+                </td>
+                <td colspan="2">
+                    <input type="password" name="password" id="pass">
+                </td>
+            </tr>
+            <tr>
+            	<td>
+            		Re-enter Password:
+            	</td>
+            	<td colspan="2">
+            		<input type="password" name="password" id=pass1>
+            	</td>
+            </tr>
+            <tr>
+                <td rowspan="4">
+                    Select your security question: 
+                </td>
+                <td colspan="2">
+                	<input type="radio" id="q1" name="sq">What is your pet name?
+		 </td></tr>
+		 <tr><td colspan="2">
+		 	<input type="radio" id="q2" name="sq">Who is your best friend?
+		 </td></tr>
+		 <tr><td colspan="2">
+                	<input type="radio" id="q3" name="sq">What is your favourite color?
+		 </td></tr>
+		 <tr><td colspan="2">
+		 	<input type="radio" id="q4" name="sq">Who is your favourite teacher? 
+		 </td></tr>
+            </tr>
+            <tr>
+                <td>
+                Answer of security question:
+            </td>
+            <td colspan="2">
+            	<input type="text" name="sa" id="answer">
+            </td>
+            </tr>
+            <tr>
+            	<td>
+            		Email Id:
+            	</td>
+            	<td colspan="2">
+            		<input type="text" id="email" name="email">
+            	</td>
+            </tr>
+            <tr>
+            	<td>
+            		Languages Known:
+            	</td>
+            	<td colspan="2">
+            		<input type="checkbox" name="lang" id="Mal">Malayalam
+            		<input type="checkbox" name="lang" id="Eng">English
+            		<input type="checkbox" name="lang" id="Hin">Hindi
+            	</td>
+            </tr>
+            <tr>
+            	<td rowspan="2">
+            		Phone Number:
+            	</td>
+            	<td>
+            		Home:</td><td>
+            		Office:</td><tr><td><input type="text" id="hn" name="homeno"></td><td><input type="text" id="on" name="offno">
+            	</td>
+            </tr>
+            <tr>
+            	<td>
+            		Upload CV:
+            	</td>
+            	<td colspan="2">
+            		<button value="Choose file:" name="Choose file" id="Choose file">Choose file</button>No file chosen
+            	</td>
+            </tr>
+            <tr>
+            	<td> 
+            		<input type="reset" id="reset">
+            	</td>
+                <td colspan="2">
+                    <input type="submit" name="submit" id="sub">
+                </td>
+            </tr>
+        </table>
+    </center> 
+    </form>
+    
+</body>
+</html>
